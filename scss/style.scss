@@ -3,6 +3,7 @@
 @import "reset";
 @import "signup";
 @import "login";
+@import "new-pass";
 body {
    font-family: "Inter", sans-serif;
    background-color: $background-color;
@@ -184,4 +185,11 @@ body {
       visibility: visible;
       opacity: 0.4;
    }
+}
+// Section main
+.title {
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 30px;
+   font-weight: 700;
+   color: $accent-color;
 }

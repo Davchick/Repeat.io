@@ -9,11 +9,13 @@ body {
     padding-top: 12vh;
 }
 .log-in__content {
+    padding: 40px;
     border-radius: 28px;
     background-color: $cover-color;
 }
 .log-in__title {
     font-family: "Cormorant Garamond", sans-serif;
+    font-size: 30px;
     color: $main-color;
     padding-left: 20px;
     padding-bottom: 40px;
@@ -30,11 +32,13 @@ body {
         color: $gray;
     }
     input {
+        color: $accent-color;
         background: none;
         width: 100%;
-        border: 1.3px solid #c4c4c4;
+        margin-top: 12px;
+        border: 1.3px solid $gray;
         border-radius: 14px;
-        padding-left: 30px;
+        padding: 22px 0 22px 30px;
         font-size: 15px;
         &::placeholder {
             color: $gray;
@@ -76,6 +80,7 @@ body {
 }
 .log-in__btn {
     font-size: 16px;
+    font-weight: 600;
     padding: 20px 0;
     border-radius: 10px;
     margin-top: 40px;
@@ -96,24 +101,24 @@ body {
     justify-content: space-between;
     gap: 15px;
     p {
-        color: #919499;
+        color: $gray;
         min-width: 112px;
     }
     &::before {
         content: "";
         width: 180px;
         height: 1px;
-        background-color: #919499;
+        background-color: $gray;
     }
     &::after {
         content: "";
         width: 180px;
         height: 1px;
-        background-color: #919499;
+        background-color: $gray;
     }
 }
 .another-method__btn {
-    color: $main-color;
+    color: $main-color !important;
     border: 1.3px solid $gray;
     background: none;
 }
@@ -122,7 +127,7 @@ body {
     max-width: 270px;
     margin: 0 auto;
     p {
-        color: #919499;
+        color: $gray;
         a {
             color: $accent-color;
             &:hover {
