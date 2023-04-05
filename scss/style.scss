@@ -91,9 +91,7 @@ body {
    }
    .btn:hover,
    .btn:focus {
-      background: none;
-      color: $accent-color !important;
-      border: 1px solid $accent-color;
+      background-color: rgba($color: $accent-color, $alpha: 0.5);
    }
    .transp-btn:hover,
    .transp-btn:focus {

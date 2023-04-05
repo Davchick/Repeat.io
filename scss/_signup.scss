@@ -2,10 +2,9 @@
 @import "reset";
 @import "vars";
 
-.sign-up{
-   padding-top: 12vh;
+.sign-up {
+   padding: 10vh 2vh 5vh 2vh;
 }
-
 .title {
    text-align: center;
    padding-bottom: 3vh;
@@ -17,8 +16,9 @@
          color: $accent-color;
       }
    }
-   input {  
-      background: none;
+   input {
+      color: $accent-color;
+      background-color: transparent;
       margin-top: 15px;
       width: 100%;
       height: 65px;
@@ -27,7 +27,7 @@
       padding-left: 30px;
       font-size: 15px;
       &::placeholder {
-         color: #c4c4c4;
+         color: $gray;
       }
       &:focus {
          border-color: $accent-color;
@@ -42,23 +42,18 @@
    flex-direction: column;
    row-gap: 20px;
 }
-.sign-up__form-password {
-   max-width: 265px;
-}
-.sign-up__form-confirm {
-   max-width: 265px;
-}
-.password__container{
-   display: flex;
-}
 .sign-up__btn {
    font-weight: 600;
    font-size: 16px;
    width: 100%;
    height: 65px;
    border-radius: 14px;
-   color: $accent-color;
-   background-color: transparent;
-   border: 1px solid $accent-color;
+   color: $background-color;
+   background-color: $accent-color;
    margin-top: 33px;
+   &:hover {
+      background-color: #9c9c32;
+      transition: all 0.3s ease;
+   }
 }
+

@@ -2,12 +2,12 @@
 @import "fonts";
 @import "vars";
 .reset {
-   padding-top: 12vh;
+   padding: 10vh 3vh 5vh 3vh;
 }
 .cover {
+   padding: 4vh;
    border-radius: 30px;
    background-color: $cover-color;
-   padding: 30px 3vw 55px;
    max-width: 640px;
    margin: 0 auto;
 }
