@@ -54,12 +54,11 @@ body {
    display: inline-block;
    border-radius: 8px;
    background: $accent-color;
-   padding: 13px 0;
+   padding: 13px 25px;
    font-weight: 700;
    color: #131e3a !important;
    transition: all 0.8s ease;
    text-align: center;
-   width: 120px;
 }
 .transp-btn {
    background: none;
@@ -91,7 +90,7 @@ body {
    }
    .btn:hover,
    .btn:focus {
-      background-color: rgba($color: $accent-color, $alpha: 0.5);
+      background-color: #9c9c32;
    }
    .transp-btn:hover,
    .transp-btn:focus {
